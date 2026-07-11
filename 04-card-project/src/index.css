@@ -1,4 +1,9 @@
 @import "tailwindcss";
 
+body{
+    box-sizing: border-box;
+}
 
-
+#Rightcontent::-webkit-scrollbar{
+    display: none;
+}

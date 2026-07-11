@@ -1,8 +1,14 @@
 import React from 'react';
-
-const Section1 = () =>{
+import Navbar from './Navbar';
+import Page1content from './Page1content';
+const Section1 = (props) => {
+    console.log(props.users)
     return (
-           <div className=' h-screen w-full bg-cyan-950  flex items-center justify-center'>Section1</div>
+        <div>
+            <Navbar />
+            <Page1content users = {props.users}  />
+
+        </div>
     )
 }
 export default Section1;

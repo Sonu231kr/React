@@ -1,24 +1,48 @@
 import React from 'react'
 
 import Card from './component/Componenets'
-const App = () =>{
+const App = () => {
 
-  return(
-
-
-    <div>
+  return (
 
 
-  <Card user="sonu" age={28} />
-      <Card user="Avantika" age={28} img='https://plus.unsplash.com/premium_photo-1783095264167-9466440f4a51?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' />
-      <Card user="srshsj" age={28} img= 'https://plus.unsplash.com/premium_photo-1783095264167-9466440f4a51?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' />
-  <Card user="rani" age={28} />
-   
+    <div className='cardcontainer'>
+
+
+      <Card user="sonu" age={28} />
+      <Card user="Avantika" age={28} />
+      <Card user="srshsj" age={28}  />
+      <Card user="sonam" age={28} />
+      <Card user="prity" age={28} />
+      <Card user="rajesh" age={28} />
+      <Card user="hanshika" age={28} />
+      <Card user="shivani" age={28} />
+      <Card user="roushani" age={28} />
+      <Card user="anu" age={28} />
+      <Card user="sulekhs" age={28} />
+      <Card user="lalita" age={28} />
+      <Card user="hanshika" age={28} />
+      <Card user="anjali" age={28} />
+      <Card user="varsha" age={28} />
+      <Card user="radah" age={28} />
+      <Card user="rani" age={28} />
+      <Card user="rani" age={28} />
+      <Card user="rani" age={28} />
+      <Card user="rani" age={28} />
+      <Card user="rani" age={28} />
+      <Card user="rani" age={28} />
+      
+      <Card user="rani" age={28} />
+      <Card user="rani" age={28} />
+      <Card user="rani" age={28} />
+      <Card user="rani" age={28} />
+      <Card user="rani" age={28} />
+
 
 
     </div>
 
 
   )
-} 
+}
 export default App

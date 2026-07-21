@@ -1,6 +1,9 @@
 
 import React from 'react'
 import Footer from './Components/Footer';
+import Arrowfuntions from './Components/Arrowfuntions';
+import Usestate from './Hooks/Usestate';
+import Usestate02 from './Hooks/Usestate02';
 
 function App() {
 
@@ -16,7 +19,7 @@ function App() {
   return (
     <div >
 
-    {/* < button className ='bg-white border-2 text-black rounded-2xl  m-20 py-2  px-8  '  onClick={clickme} > clickme</button>
+    < button className ='bg-white border-2 text-black rounded-2xl  m-20 py-2  px-8  '  onClick={clickme} > clickme</button>
 
       <input className='bg-white border-2 text-black rounded-2xl  m-20 py-2  px-8  ' type="text" placeholder='Enter the Name ' onChange={clickme} onMouseEnter={() =>{
         console.log("mosuse enter")
@@ -30,10 +33,16 @@ function App() {
 
       < input className='bg-white border-2 text-black rounded-2xl  m-20 py-2  px-8  ' onKeyDown={(e) =>{
         console.log(e.key)
-      }}></input> */}
+      }}></input> 
 
              
     <Footer />
+
+    <Arrowfuntions />
+
+    <Usestate />
+
+    <Usestate02 />
 
     </div>
   )

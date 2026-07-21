@@ -1,6 +1,6 @@
 
 import React from 'react'
-import Footer from './Components/Footer';
+import Footer from './Components/Form';
 import Arrowfuntions from './Components/Arrowfuntions';
 import Usestate from './Hooks/Usestate';
 import Usestate02 from './Hooks/Usestate02';

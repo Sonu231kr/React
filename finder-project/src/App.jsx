@@ -1,9 +1,18 @@
 import React from 'react'
 import { fetchPhoto, fetchVideo } from './api/mediaApi'
+import Searchbar from './Componenets/Searchbar'
 
 const App = () => {
   return (
-    <div className='m-30 gap-10 flex'>
+    <div >
+
+      <Searchbar />
+
+
+
+
+
+
         <button className='py-3 px-6 border-2 '
          onClick={ async ()=> {
 

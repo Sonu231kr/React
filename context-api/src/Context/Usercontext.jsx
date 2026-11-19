@@ -4,11 +4,16 @@ export const UserConstapi = createContext();
 
 export const Usercontext = ({children}) => {
 
-    const myname = 'sonu';
+  const [age , setAge] = useState('20');
+  const [name , setName] = useState('');
+  const [theme , setTheme] = useState('light')
+  const [myname , setMyname] = useState('Sonu')
+  
+    
     
 
   return (
-         <UserConstapi.Provider value='sonu' >
+         <UserConstapi.Provider value={{age, setAge, setName, name , theme, setTheme , myname}} >
             {children}
          </UserConstapi.Provider>   
 
